@@ -64,14 +64,12 @@ class HomeScreenState extends State<Home>{
                 child: new Icon(Icons.refresh),
               ),
               SizedBox(height: 10,),
-              new Text("(This button refreshes the counter)",
+              new Text("(In case you want to refresh the counter 😉)",
                   style: new TextStyle(
                     // color: _counter%2==0 ? Colors.grey[800] : Colors.grey[700],
                     fontSize: 17,
                   )
               ),
-
-
             ]
         ),
       ),
