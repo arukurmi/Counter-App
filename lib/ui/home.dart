@@ -1,8 +1,14 @@
 import 'dart:ui';
-
 import 'package:flutter/cupertino.dart';
 import'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+
+
+
+//// MADE FROM SCRATCH BY ARYANSH KURMI
+//// FOR AN INTERN TASK
+
+
 
 class Home extends StatefulWidget{
   @override
