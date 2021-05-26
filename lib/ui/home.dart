@@ -51,19 +51,19 @@ class HomeScreenState extends State<Home>{
                     fontSize: 17,
                   )
               ),
-              SizedBox(height: 70,),
-              new FloatingActionButton(
-                onPressed: _refreshCounter,
-                backgroundColor: Colors.grey[600],
-                child: new Icon(Icons.refresh),
-              ),
-              SizedBox(height: 10,),
-              new Text("(Refresh the counter)",
-                  style: new TextStyle(
-                    color: _counter%2==0 ? Colors.grey[800] : Colors.grey[700],
-                    fontSize: 17,
-                  )
-              ),
+              // SizedBox(height: 70,),
+              // new FloatingActionButton(
+              //   onPressed: _refreshCounter,
+              //   backgroundColor: Colors.grey[600],
+              //   child: new Icon(Icons.refresh),
+              // ),
+              // SizedBox(height: 10,),
+              // new Text("(Refresh the counter)",
+              //     style: new TextStyle(
+              //       color: _counter%2==0 ? Colors.grey[800] : Colors.grey[700],
+              //       fontSize: 17,
+              //     )
+              // ),
 
 
             ]
