@@ -63,7 +63,7 @@ class HomeScreenState extends State<Home>{
               SizedBox(height: 10,),
               new Text("(In case you want to refresh the counter 😉)",
                   style: new TextStyle(
-                    // color: _counter%2==0 ? Colors.grey[800] : Colors.grey[700],
+                    color: _counter%2==0 ? Colors.grey[800] : Colors.grey[700],
                     fontSize: 17,
                   )
               ),
