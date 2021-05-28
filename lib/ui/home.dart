@@ -3,12 +3,8 @@ import 'package:flutter/cupertino.dart';
 import'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-
-
-//// MADE FROM SCRATCH BY ARYANSH KURMI
-//// FOR AN INTERN TASK
-
-
+/////////////////////////////// MADE FROM SCRATCH BY ARYANSH KURMI ///////////////////////////////
+/////////////////////////////// FOR INTERN TASK OF MATERATE        ///////////////////////////////
 
 class Home extends StatefulWidget{
   @override
@@ -25,6 +21,7 @@ class HomeScreenState extends State<Home>{
       _counter = _counter + 1;
     });
   }
+
   void _refreshCounter(){
     setState(() {
       _counter = 0;
